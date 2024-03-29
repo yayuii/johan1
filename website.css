@@ -1,0 +1,67 @@
+/* Resetting default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting font for Arabic text */
+body {
+    font-family: Arial, sans-serif; /* or any other Arabic-supporting font */
+    background-color: #f8f8f8; /* Light grey background */
+    color: #333; /* Dark grey text color */
+}
+
+/* Styling heading */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #1a1a1a; /* Darker grey color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #008080; /* Teal color */
+    margin-bottom: 10px;
+}
+
+/* Styling links */
+a {
+    color: #007bff; /* Blue color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling paragraph */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Container styling */
+.rel {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Styling for "Read more" link */
+.rel a {
+    color: #007bff; /* Blue color */
+    font-weight: bold;
+}
+
+.rel a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: #0056b3; /* Darker blue color on hover */
+}
+footer{
+    text-align: center;
+    background-color: #fff;
+}

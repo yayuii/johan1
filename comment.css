@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 60px;
+    padding: 60px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    color: #333;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .comments-container {
+    margin-top: 40px;
+  }
+  
+  .comments-list {
+    padding: 0;
+  }
+  
+  .comments-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .comments-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .commenter {
+    font-weight: bold;
+  }
+  
+  .comment {
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+  h3{
+    text-align: center;
+  }
